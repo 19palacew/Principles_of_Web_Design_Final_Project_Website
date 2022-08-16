@@ -1,0 +1,3 @@
+<meta name="author" content="Winston Palace">
+<meta name="keywords" content="Winston Palace, Programming, 3D Design, Computer Science, Agile Methodologies, Backend, University of Washington, C++, C#, Erlang, Java, Unity, Unreal Engine, Video Games">
+<meta name="description" content="Welcome to the portfolio site of Winston Palace. This site demonstrates my various projects and experiences in computer science such as some of my class work from the University of Washington. There are also displays of my visual arts and games from various projects and game jams.">

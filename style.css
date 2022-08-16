@@ -7,6 +7,7 @@
     padding-left: 30px;
     padding-right: 30px;
     margin: 0;
+    size: 100%;
 }
 
 #links {
@@ -24,6 +25,48 @@
     color: #98a692;
 }
 
+#return {
+    position: fixed;
+    bottom: 2%;
+    right: 2%;
+    width: 5%;
+}
+
+#bottom {
+    background-color: #353940;
+    text-align: center;
+    font-size: 2em;
+}
+
+#bottom::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#bottom table {
+    table-layout: fixed;
+    margin: 2%;
+    float: left;
+    width: 20%;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #4b515c;
+}
+
+#bottom td{
+    padding: 2%;
+}
+
+#bottom th {
+    font-size: 1.2em;
+}
+
+#bottom a {
+    text-decoration: underline;
+    color: #E9EAEC;
+}
+
 body {
     font-family: 'Roboto', serif;
     font-size: 0.75vw;
@@ -34,8 +77,18 @@ body {
 
 .content {
     text-align: center;
+    padding-left: 20%;
+    padding-right: 20%;
 }
 
 h1 {
-    font-size: 3em;
+    font-size: 4em;
+}
+
+img {
+    width: 80%;
+}
+
+p {
+    font-size: 1.6em;
 }
