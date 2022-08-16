@@ -1,0 +1,32 @@
+#navigation {
+    font-size: 3em;
+    color: #E9EAEC;
+    background-color: #353940;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: 0;
+}
+
+#links {
+    float: right;
+}
+
+#links a{
+    padding-left: 20px;
+    font-size: 0.75em;
+    text-decoration: none;
+    color: #E9EAEC;
+}
+
+#links a:hover {
+    color: #98a692;
+}
+
+body {
+    font-family: 'Roboto', serif;
+    font-size: 12px;
+    background-color: #4b515c;
+    margin: 0;
+}
