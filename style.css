@@ -29,4 +29,13 @@ body {
     font-size: 0.75vw;
     background-color: #4b515c;
     margin: 0;
+    color: #E9EAEC;
+}
+
+.content {
+    text-align: center;
+}
+
+h1 {
+    font-size: 3em;
 }
