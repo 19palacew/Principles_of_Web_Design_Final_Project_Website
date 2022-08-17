@@ -98,4 +98,8 @@ img {
 
 p {
     font-size: 1.6em;
+    text-align: left;
+    background-color: #353940;
+    padding: 3%;
+    border-radius: 10px;
 }
