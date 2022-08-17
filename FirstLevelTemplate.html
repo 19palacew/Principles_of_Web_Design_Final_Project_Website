@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bottom.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto&display=swap">
     <meta charset="UTF-8">
     <title>FirstLevelTemplate</title>
@@ -10,15 +11,31 @@
     <a href="#navigation" id="return"><img src="Images\Return.png" alt="Return to Top"></a>
     <div id="navigation">
         Winston Palace
-        <div id="links">
-            <a href="about.html">About</a>
-            <a href="projects.html">Projects</a>
-            <a href="games.html">Games</a>
+        <div class="dropdown">
             <a href="arts.html">Visual Arts</a>
         </div>
-    </div>
-    <div id="project-content">
-        <h2>Hi</h2>
+        <div class="dropdown">
+            <a href="projects.html">Projects</a>
+            <div id="drop-content">
+                <ul>
+                    <li><a href="trivia.html">Trivia Maze</a></li>
+                    <li><a href="render.html">RendEr</a></li>
+                    <li><a href="discordbot.html">Discord Bot</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="dropdown">
+            <a href="games.html">Games</a>
+            <div id="drop-content">
+                <ul>
+                    <li><a href="roborally.html">Robo Rally</a></li>
+                    <li><a href="jalopy.html">Jalopy Joyride</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="dropdown">
+            <a href="about.index">About</a>
+        </div>
     </div>
     <div class="content">
         <h1>Header 1</h1>

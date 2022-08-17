@@ -1,0 +1,34 @@
+#bottom {
+    background-color: #353940;
+    text-align: center;
+    font-size: 2em;
+}
+
+#bottom::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#bottom table {
+    table-layout: fixed;
+    margin: 2%;
+    float: left;
+    width: 20%;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #4b515c;
+}
+
+#bottom td{
+    padding: 2%;
+}
+
+#bottom th {
+    font-size: 1.2em;
+}
+
+#bottom a {
+    text-decoration: underline;
+    color: #E9EAEC;
+}
