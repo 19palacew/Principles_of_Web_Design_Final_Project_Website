@@ -7,11 +7,16 @@
     padding-left: 30px;
     padding-right: 30px;
     margin: 0;
-    size: 100%;
 }
 
 #links {
     float: right;
+}
+
+#link::after {
+    content: "";
+    clear: both;
+    display: table;
 }
 
 #links a{
@@ -23,6 +28,12 @@
 
 #links a:hover {
     color: #98a692;
+}
+
+#project-content {
+    margin: 0;
+    background-color: #98a692;
+    height: 20px;
 }
 
 #return {
