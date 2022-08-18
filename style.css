@@ -88,6 +88,25 @@ body {
     padding-right: 20%;
 }
 
+.content a:visited{
+    color: #98a692;
+}
+
+.content a:link{
+    color: #98a692;
+}
+
+.sitemap {
+    text-align: center;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.sitemap a{
+    color: #E9EAEC;
+    font-size: 2em;
+}
+
 h1 {
     font-size: 4em;
 }
